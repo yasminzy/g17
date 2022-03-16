@@ -126,7 +126,7 @@ header .container {
 .top-wrapper h1 {
   animation: 1.5s slideInUp;
   font-family: "Fugaz One", cursive;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .top-wrapper p {
@@ -134,7 +134,7 @@ header .container {
   background-color: black;
   border-radius: 4px;
   font-family: "Fugaz One", cursive;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .member-wrapper {
@@ -188,7 +188,7 @@ header .container {
 }
 
 .social a {
-  color: black;
+  color: blue;
   font-size: 20px;
   padding: 5px;
 }
