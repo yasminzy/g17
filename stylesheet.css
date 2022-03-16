@@ -64,6 +64,10 @@ header {
   border: 1px solid;
   color: #fff;
   padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .container {
@@ -334,6 +338,15 @@ abbr:hover {
     transform: translate3d(0, 0, 0);
   }
 }
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
 
 /* Responsive */
 
